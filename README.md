@@ -1,1 +1,1 @@
-# Api_Solid-principles_Onion-architecture
+Homework for Wendesday (17.05.2023)
