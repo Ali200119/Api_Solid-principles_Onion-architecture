@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Company.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
@@ -24,7 +24,7 @@ namespace Company.Controllers
         }
 
         [HttpGet]
-        [Route("Test/{id}")]
+        //[Route("GetEmployeeByTestId")]
         public IActionResult GetById(int? id)
         {
             if (id is null) return BadRequest();
